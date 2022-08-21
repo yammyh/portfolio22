@@ -480,9 +480,10 @@ input.btn{
 }
 
 .mini-title{
-	font-size:30px;
+	font-size:24px;
 	color: #4dbbcb;
 	padding:0px 0 50px;
+	font-weight: 600;
 }
 .caret-down{
 	width: 16px;
@@ -688,12 +689,12 @@ footer{
 		background-repeat: no-repeat;
 		background-size: cover;
 		content: "";
-		height: 100vh;
+		height: 10vh;
 		left: 0;
 		position: fixed;
 		top: 0;
 		width: 100%;
-		z-index: -2;
+		z-index: -1;
 		background-image:url(img/parallax_natto.jpg);
 	}
 
