@@ -405,7 +405,7 @@ input.btn{
 	left: 0;
 	width: 100%;
 	height: 100vh;
-	background-color: rgba(0, 0, 0, 0.8);
+	-color: rgba(0, 0, 0, 0.8);
 	display: none;
 	z-index: 20;
   }
@@ -683,6 +683,7 @@ footer{
 	}
 	.parallax_content{
 		height: 200px;
+		background-atatchment:unset;
 	}
 	.parallax_content::before{
 		background-position: center;
