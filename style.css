@@ -268,7 +268,6 @@ br.sp{
 	height: 300px;
 	justify-content: center;
 	align-items: center;
-  
 	background-image: url(img/parallax_natto.jpg);
 	background-attachment: fixed;
 	background-position: center;
@@ -419,6 +418,7 @@ input.btn{
 .bigimg {
 	max-width: 500px;
 	display: block;
+	height:auto;
   }
 
 .modal-content p{
