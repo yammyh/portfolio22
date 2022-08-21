@@ -264,10 +264,11 @@ br.sp{
 /*--------------------------PROFILE--------------------------*/
 
 .parallax_content{
-	display: flex;
+	display: block;
 	height: 300px;
 	justify-content: center;
 	align-items: center;
+
 	background-image: url(img/parallax_natto.jpg);
 	background-attachment: fixed;
 	background-position: center;
@@ -297,6 +298,7 @@ br.sp{
 }
 .gallery img{
 	width: 100%;
+	height:auto;
 }
 .gallery .content{
 	display: grid;
@@ -390,6 +392,7 @@ input.btn{
 
 .gallery-item a img {
 	width: 100%;
+	height: auto;
   }
 
   .explain{
@@ -418,7 +421,6 @@ input.btn{
 .bigimg {
 	max-width: 500px;
 	display: block;
-	height:auto;
   }
 
 .modal-content p{
@@ -677,6 +679,20 @@ footer{
 	.career_content {
 		border: solid 3px #191919;
 		padding: 40px 30px;
+	}
+	.parallax_content::before{
+	content: "";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    -webkit-transform: translate3d(0, 0, -1px);
+    transform: translate3d(0, 0, -1px);
+    width: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    z-index: -1;
+	background-image:url(img/parallax_natto.jpg);
 	}
 	.gallery .content {
 		gap: 10px;
