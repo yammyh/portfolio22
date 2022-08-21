@@ -680,14 +680,20 @@ footer{
 		border: solid 3px #191919;
 		padding: 40px 30px;
 	}
-	.parallax_content{
+	.parallax_content::before{
 		height: 150px;
-		background-attachment: fixed;
-		background-position: center;
-		background-size: contain;
-		background-repeat: no-repeat;
-		background-color: #fbc209;
+		display:block;
+		position:fixed;
+		top:0;
+		left:0;
+		z-index:-1;
+		width:100%;
+		background-repeat:no-repeat;
+		background-position:center;
+		background-image:url(img/parallax_natto.jpg);
+		background-size:cover;
 	}
+
 	.gallery .content {
 		gap: 10px;
 		grid-template-columns: repeat(auto-fill,minmax(140px,3fr));
