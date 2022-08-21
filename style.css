@@ -721,7 +721,7 @@ footer{
 	}
 /*--------------------------GALLERYmodal--------------------------*/
 	.modal-content{
-		padding: 50px 10%;
+		padding: 50px 0 0;
 		flex-flow: column;
 	  }
 
